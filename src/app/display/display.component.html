@@ -1,0 +1,10 @@
+<p>display works!</p>
+<p> {{taco}}</p>
+<!-- <p> {{myAccount.name}} </p>
+<p> {{myAccount.amount}} </p>
+<p> {{myAccount.description}} </p> -->
+<div *ngFor="let account of accounts">
+    <p>{{account.name}}</p>
+    <p>{{account.amount}}</p>
+    <p>{{account.description}}</p>
+</div>
